@@ -1,4 +1,4 @@
-# Orange Pi 5B
+# OpenHarmony for Orange Pi 5B
 
 **1、源码下载**
 
@@ -34,7 +34,12 @@ repo forall -c 'git lfs pull'
 ```
 **2、编译**
 
-进入根目录，执行如下命令进行编译
+1）进入根目录，执行如下命令导入patch
+```
+./device/board/orangepi/orangepi_5b/patches/auto_patch.sh
+```
+
+2）进入根目录，执行如下命令进行编译
 ```
 ./build.sh --product-name orangepi_5b --ccache
 ```
