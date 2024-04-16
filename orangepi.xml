@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitee.com/nixingfeng" name="orangepi" review="https://gitee.com/nixingfeng/" revision="OpenHarmony-4.0-Release"/>
+  <remote fetch="https://gitee.com/nixingfeng" name="orangepi" review="https://gitee.com/nixingfeng/" revision="OpenHarmony-4.1-Release"/>
 
   <project name="device_board_orangepi" path="device/board/orangepi" groups="default,ohos:standard,ohos:chipset" remote="orangepi"/>
   <project name="device_soc_rockchip" path="device/soc/rockchip" groups="default,ohos:standard,ohos:chipset" remote="orangepi"/>
