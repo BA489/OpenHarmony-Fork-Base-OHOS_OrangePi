@@ -2,4 +2,5 @@
 <manifest>
   <include name="orangepi.xml"/>
   <include name="ohos.xml"/>
+  <include name="cast.xml"/>
 </manifest>
